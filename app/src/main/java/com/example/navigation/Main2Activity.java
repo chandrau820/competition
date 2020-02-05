@@ -9,7 +9,7 @@ import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
-public class splash extends AppCompatActivity {
+public class Main2Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,9 +32,9 @@ public class splash extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 finally {
-                    Intent ma=new Intent(splash.this,MainActivity.class);
+                    Intent ma=new Intent(Main2Activity.this,MainActivity.class);
                     startActivity(ma);
-                    splash.this.finish();
+                    Main2Activity.this.finish();
 
                 }
             }
